@@ -438,6 +438,11 @@ footer h4 {
   width: 100%;
 }
 
+footer a[href^="mailto:"]
+{ 
+  color: #152A3E;
+}
+
 footer .follow-section {
   display: flex;
   flex-flow: row wrap;
