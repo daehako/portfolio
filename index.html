@@ -35,7 +35,7 @@
     <div class="content-wrapper">
       <nav>
         <ul>
-          <li><a href="#work">projects</a></li>
+          <li><a href="#projects">projects</a></li>
           <li><a href="#skills">skills</a></li>
           <li><a href="#about">about</a></li>
           <li><a href="#contact" id="contact-link">contact me</a></li>
@@ -50,7 +50,7 @@
 
   <main>
     <article class="portfolio">
-      <section id="work">
+      <section id="projects">
         <div class="content-wrapper">
           <h3 class="portfolio-header">Projects</h3><!-- implement change to Projects-->
             <div class="portfolio-wrapper">
@@ -60,11 +60,13 @@
                     <img src="img/sticky-note.png" alt="Sticky Note Project"></a>
                 </figure>
                 <h4>Super Sticky Notes</h4>
-                <p class="project-description">
-                  Greenfield project creating sticky notes app. Using components to build a UI app with 
-                  the ability to add, delete and search for said notes.</p>
-                <p><span>Skills: </span>React, JS components</p>
-                <p><span>Tools: </span>CodeSandbox, Props, State</p>
+                <div class="project-description-container">
+                  <p class="project-description">
+                    Greenfield project, broswer-based UI app with 
+                    the ability to add, delete and search for saved notes.</p>
+                  <p><span>Skills: </span>React, JS components</p>
+                  <p><span>Tools: </span>CodeSandbox, Props, State</p>
+                </div>
                 <a class="project-link" href="https://mvei0d.csb.app/" target="_blank">live page</a>
               </div>
               <div class="home-portfolio-piece">
@@ -73,11 +75,13 @@
                     <img src="img/github-repo-gallery.png" alt="GitHub Repo Gallery"></a>
                 </figure>
                 <h4>GitHub Repo Gallery</h4>
-                <p class="project-description">
-                  Uses GitHub's API to pull data from my GitHub portfolio to create a gallery of repos. Visitors 
-                  to the site can click on the repos to see more details and a link to the repo.</p>
-                <p><span>Skills: </span>JSON, JavaScript</p>
-                <p><span>Tools: </span>REST API, GitHub Pages</p>
+                <div class="project-description-container">
+                  <p class="project-description">
+                    Gallery site utilizing GitHub's API to pull data details for GitHub repos.
+                  </p>
+                  <p><span>Skills: </span>JSON, JavaScript</p>
+                  <p><span>Tools: </span>REST API, GitHub Pages</p>
+              </div>
                 <a class="project-link" href="https://daehako.github.io/github-repo-gallery/" target="_blank">live page</a>
               </div>
               <div class="home-portfolio-piece">
@@ -86,10 +90,12 @@
                     <img src="img/guess-the-word.png" alt="Guess the Word Game"></a>
                 </figure>
                 <h4>Guess the Word Game</h4>
-                <p class="project-description">
-                  Players guess the word by entering one letter at a time within an alloted number of guesses.</p>
-                <p><span>Skills: </span>JavaScript</p>
-                <p><span>Tools: </span>JSON, GitHub Pages, VS Code</p>
+                <div class="project-description-container">
+                  <p class="project-description">
+                    Players guess the word by entering one letter at a time within an alloted number of guesses.</p>
+                  <p><span>Skills: </span>JavaScript</p>
+                  <p><span>Tools: </span>JSON, GitHub Pages, VS Code</p>
+                </div>
                 <a class="project-link" href="https://daehako.github.io/guess-the-word/" target="_blank">live page</a>
               </div>
               <div class="home-portfolio-piece">
@@ -98,37 +104,43 @@
                     <img src="img/unplugged.png" alt="Unplugged Site"></a>
                 </figure>
                 <h4>Unplugged</h4>
+                <div class="project-description-container">
                 <p class="project-description">
-                  A multi-page responsive website coded with Flexbox. Versatile design has several sections, including 
-                  a Cards design pattern, that can be re-purposed for different sites.</p>
+                  Multi-page responsive website for company retreat. Featuring 
+                  Cards design pattern.</p>
                 <p><span>SKills: </span>HTML, CSS, Flexbox</p>
                 <p><span>Tools: </span>Photoshop, ChromeDev, GitHub, VS Code</p>
+                </div>
                 <a class="project-link" href="https://daehako.github.io/unplugged-retreat/" target="_blank">live page</a>
               </div>
               <div class="home-portfolio-piece">
                 <figure>
-                  <a href="https://daehako.github.io/rogue-pickings-responsive/" target="_blank">
-                    <img src="img/rogue-pickings.png" alt="Rogue Pickings site"></a>
+                  <a href="https://3crjpd.csb.app/" target="_blank">
+                    <img src="img/hotel-filter-app.png" alt="Hotel Filter App"></a>
                 </figure>
-                <h4>Rogue Pickings</h4>
+                <h4>Hotel Filter App</h4>
+                <div class="project-description-container">
                 <p class="project-description">
-                  A simple homepage perfect for a pop-up restaurant or food truck. Originally Built as a static website, converted 
-                  into responsive design using Flexbox.</p>
-                <p><span>Skills: </span>HTML, CSS, Flexbox</p>
+                  Brower-based app to filter for desired quality in a hotel.</p>
+                <p><span>Skills: </span>E6S, JSX, Manipulate the DOM, Managing Data Flow</p>
                 <p><span>Tools: </span>Photoshop, Chrome DevTools, GitHub Pages, Visual Studio Code</p>
-                <a class="project-link" href="https://daehako.github.io/rogue-pickings-responsive/" target="_blank">live page</a>
-              </div>
+                </div>
+                <a class="project-link" href="https://3crjpd.csb.app/" target="_blank">live page</a>
+                </div>
               <div class="home-portfolio-piece">
                 <figure>
                   <a href="https://take-back-day.netlify.app/#top" target="_blank">
-                    <img src="img/clear-your-cabinet.png" alt="Rogue Pickings site"></a>
+                    <img src="img/clear-your-cabinet.png" alt="Clear Your Cabinet"></a>
                 </figure>
                 <h4>Clear Your Cabinet 2018</h4>
+                <div class="project-description-container">
                 <p class="project-description">
-                  Clear Your Cabinet is an initiative of the New York AG’s Office to reduce the amount of unused prescription drugs 
-                  in New Yorkers’ medicine cabinets. Used data scrapers and APIs to help people find disposal centers.</p>
-                <p><span>Skills: </span>HTML, CSS, JavaScript, APIs, Python</p>
-                <p><span>Tools: </span>Figma, Chrome DevTools, GitHub Pages, Visual Studio Cod, Trello</p>
+                  New York State Office of the Attorney General site to 
+                  locate disposal centers for unused prescriptions.
+                </p>
+                <p><span>Skills: </span>JavaScript, APIs, Python</p>
+                <p><span>Tools: </span>Figma, Chrome DevTools, GitHub Pages, Visual Studio Code</p>
+                </div>
                 <a class="project-link" href="https://take-back-day.netlify.app/#top" target="_blank">live page</a>
               </div>
           </div>
