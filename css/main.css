@@ -188,7 +188,7 @@ address {
 
 /* Structural Style */
 header,
-#work,
+#projects,
 #skills,
 #about,
 footer {
@@ -202,7 +202,7 @@ footer {
   width: 85%;
 }
 
-#work p,
+#projects p,
 #about p {
   width: 100%;
   text-align: left;
@@ -233,7 +233,7 @@ nav {
   margin-bottom: 60px;
 }
 
-#work {
+#projects {
   padding-top: 60px;
 }
 
@@ -264,6 +264,13 @@ h4 {
 
 .project-description {
   margin: 0 0 30px 0;
+}
+
+#projects .project-description-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .project-link {
@@ -338,12 +345,12 @@ header h2  {
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
 /* Portfolio */
-#work
+#projects
 #skills {
   width: 100%;
 }
 
-#work h3 {
+#projects h3 {
   width: 100%;
 }
 
@@ -605,13 +612,9 @@ footer .social-icons li i {
     margin: 0 0 80px 0;
   }
 
-  /* work */
-  #work {
+  /* projects */
+  #projects {
     padding-top: 80px;
-  }
-
-  #skills {
-    padding-bottom: 80px;
   }
 
   footer {
@@ -644,6 +647,7 @@ footer .social-icons li i {
 
   #skills {
     padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   .skills-header {
@@ -855,7 +859,7 @@ footer .social-icons li i {
     margin-bottom: 80px;
   }
 
-  #work {
+  #projects {
     padding-top: 80px;
   }
 
